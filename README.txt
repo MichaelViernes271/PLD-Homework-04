@@ -1,3 +1,17 @@
+# Good day, Sir Madrigalejos;
+#   I am still trying to configure my git bash terminal that's why I
+#   am uploading through github directly. For more commit information, 
+#   I copied them simply from the terminal. Also, pull cmd does not work besides clone cmd.
+#   
+#
+#   
+#
+#   
+#
+#   
+#
+#   
+#
 # README.txt
 #
 # Author: Viernes, Michael E.
