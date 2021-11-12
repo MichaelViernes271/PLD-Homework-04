@@ -38,14 +38,12 @@ def printInfo(userInfo):
 
 # define main program
 def main():
-    # Creating array. # THE FOLLOWING CODE WILL NOT BE USED!
-    #info = []
+    # Creating array.
+    info = []
     try:
-        # THE FOLLOWING CODE WILL NOT BE USED!
-        #info.append(getName())
-        #info.append(getAge())
-        #info.append(getAddress())   
-        
+        info.append(getName())
+        info.append(getAge())
+        info.append(getAddress())
     except Error:
         print("Please put a proper input.")
     printInfo(info)
@@ -54,6 +52,6 @@ while True:
     quit = "None"
     main() # call main program
     quit = input("Press Q to quit: ")
-    if (quit == "q".upper())
+    if quit == "q".upper()
         break
 
