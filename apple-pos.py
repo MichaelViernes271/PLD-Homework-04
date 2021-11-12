@@ -11,7 +11,7 @@ print("----------------------------------------")
     
 def calcApples(): # Calculates apples.
     savings = float(input("Amount of your money: "))
-    apple = float(input("How much apple will you buy:: "))
+    apple = float(input("How much apple will you buy: "))
     return savings, apple
     # End calcApples().
 
