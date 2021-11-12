@@ -6,13 +6,13 @@ Submitted to: Mr. Madrigalejos
 """
 
 def printTotal(sum): # Prints total.
-    print(f"The total amount of fruits is {sum}.")
+    print("The total amount of fruits is {0}.".format(sum)) # Trying new format
     # end printTotal()
 
 def calcFruits(apples, orange): # Calculates sum of fruits.
     sum = (apples * 20) + (orange * 25)
-    print("$20 * Apples = " + str(apples * 20))
-    print("$25 * Orange = " + str(orange * 25))
+    print(f"$20 x {apples} Apples = " + str(apples * 20))
+    print(f"$25 x {orange} Orange = " + str(orange * 25))
     return sum
     # end calcFruits()
 
@@ -34,4 +34,16 @@ def payFruits(): # Customer pays.
     printTotal(sum)
     # end payFruits()
 
-payFruits()# Call payFruits
+
+while True: # Loop copied from name-intro.py.
+    quit = "None"
+    payFruits()# Call payFruits
+    quit = input("Press Q to quit: ")
+    if str(quit).upper() == "Q": # Experimented on str's upper func.
+    
+        # Experimented on multi line prints.
+        print(
+        """Thank you for your participation.\n"""
+        )
+        
+        break
